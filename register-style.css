@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+    margin: 0;
+    background-color: #DFAD22;
+    overflow: hidden;
+    background-image: url(backgroundcéu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 1200px;
+    min-width: 900px;
+}
+
+.main-register{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+
+.card-register{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    padding-bottom: 5%;
+    color: black; 
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(235, 220, 90);
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    margin-bottom: 10px;
+
+}
+
+.textfield > ::placeholder{
+    font-weight: 800;
+}
+
+.btn-register{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    background-color:#263238;
+    cursor: pointer; 
+    color: white;
+}
+
+
+@media (max-width: 1036px){
+    .card-register{
+        width: 800px;
+    }
+}
+
+
+@media (max-width: 900px){
+    .card-register{
+        width: 600px;
+    }
+
+        body{
+            background-image: url(brackground.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+    }
+
+
+
+    @media (max-width: 850px){
+        .card-register{
+            width: 500px;
+        }
+    
+            body{
+                background-image: url(brackground.jpg);
+                background-repeat: no-repeat;
+                background-size: auto;
+            }
+            
+            .main-register{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-left: 70px;
+                padding-top: 40px;
+            }
+}
+
+
+@media (max-width: 750px){
+    .card-register{
+        width: 400px;
+    }
+
+        body{
+            background-image: url(brackground.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+        
+        .main-register{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 70px;
+            padding-top: 40px;
+            padding-right: 20%;
+        }
+}
+
+
+@media (max-width: 650px){
+    .card-register{
+        width: 300px;
+    }
+
+        body{
+            background-image: url(brackground.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+        
+        .main-register{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 120px;
+            padding-top: 100px;
+        }
+}
+
